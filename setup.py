@@ -15,6 +15,9 @@ setup(
     author='Sybil Scan Research <research@sybilscan.com>',
     license='MIT License',
     packages=find_packages(),
+    install_requires=[
+        'requests'
+    ],
     classifiers=[
         'Topic :: OSINT, Recon',
         'Operating System :: OS Independent',
