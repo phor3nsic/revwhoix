@@ -16,9 +16,7 @@
 
 # Install
 ```sh
-git clone https://github.com/Sybil-Scan/revwhoix
-cd revwhoix
-pip install .
+pipx install git+https://github.com/phor3nsic/revwhoix.git
 ```
 
 # API Key Setup
